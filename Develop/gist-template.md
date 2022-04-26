@@ -1,10 +1,10 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+Simply put regex stands for regular expression. These are expressions that are used to match patterns in strings. They are made up of a series of characters that define the pattern. This tutorial is a Regex covering user input validation.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regex is a powerful tool that can be used to validate user input. It improves efficiency and helps maintain our code. Due to the nature of JavaScript,
 
 ## Table of Contents
 
