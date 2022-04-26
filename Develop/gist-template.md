@@ -1,12 +1,13 @@
-# Title (replace with your title)
+# Email Search, REGEX Expression
 
-Simply put regex stands for regular expression. These are expressions that are used to match patterns in strings. They are made up of a series of characters that define the pattern. This tutorial is a Regex covering user input validation.
+Regex stands for regular expression. These are expressions that are used to match patterns in strings. They are made up of a series of characters that define the pattern. This tutorial is a Regex covering user input validation, specifically, an email address.
 
 ## Summary
 
 Regex is a powerful tool that can be used to validate user input. It improves efficiency and helps maintain our code. For instance if we want to validate a user's email address, we can use regex to check if the email address is valid. There are many regex patterns that can be used to validate user input. Below will outline the code we use to validate an email address:
 
-REGEX_EMAIL = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
+REGEX_EMAIL = 
+<h3>/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/</h3>
 
 ## Table of Contents
 
@@ -20,10 +21,12 @@ REGEX_EMAIL = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,6
 
 ## Regex Components
 REGEX is made up of different components as you will see below.Each of these components target specific parts of the string. The first and the last character of the regex are the delimiters. REGEX uses / at the beginning and end of the regex to define the content that will target speciific attributes of the search criteria. The / characters are not of the targeted criteria, just what is inside of them. 
-### Anchors
+
+### Anchors 
 The first character, the caret (^), is used to indicate that the regex will start at the beginning of the string. The last character, the dollar sign ($) is used to indicate that the regex will end at the end of the string.
 
-REGEX_EMAIL = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
+REGEX_EMAIL = 
+<h3>/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/</h3>
 
 ### Quantifiers
 The (+) is used to indicate that the regex will match one or more of the characters in the regex. The (*) is used to indicate that the regex will match zero or more of the characters in the regex. The (?) is used to indicate that the regex will match zero or one of the characters in the regex. An example of a quantifier is the following: /[a-zA-Z0-9]{3,}/.
